@@ -1,0 +1,20 @@
+#Terraform state – soha ne commitold, tartalmaz érzékeny adatokat
+*.tfstate
+*.tfstate.backup
+
+#Terraform munkakönyvtár
+.terraform/
+.terraform.lock.hcl
+
+#Változók fájl – gyakran tartalmaz jelszavakat, tokeneket
+*.tfvars
+*.tfvars.json
+
+Crash log
+crash.log
+
+#Override fájlok
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
