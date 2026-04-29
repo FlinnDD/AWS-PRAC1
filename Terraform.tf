@@ -1,5 +1,6 @@
 provider "aws" {
   region = "eu-central-1"
+  profile = "Flinn"
 }
 
 resource "aws_instance" "my_instance" {
